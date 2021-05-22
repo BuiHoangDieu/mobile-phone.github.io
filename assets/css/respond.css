@@ -1,0 +1,286 @@
+@media (min-width: 1024px) and (max-width: 1239px) {
+	.hidden-on__minPC {
+		display: none;
+	}
+	.header__nav--link {
+		font-size: 1.5rem;
+		padding: 21px 12px;
+	}
+
+	.header__icon--cart,
+	.header__icon--user,
+	.header__icon--search,
+	.header__icon--item-type {
+		padding: 0 6px;
+	}
+
+	.header__nav--link-icon {
+		position: absolute;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		   -moz-transform: translateY(-50%);
+		    -ms-transform: translateY(-50%);
+		     -o-transform: translateY(-50%);
+		        transform: translateY(-50%);
+		right: -1px;
+	}
+
+	.testimonial {
+		display: none;
+	}
+
+	.carousel2 {
+		left: 0;
+	}
+
+}
+
+	/* MObile & Tablet */
+@media (max-width: 1023px) {
+	.hidden-on__motab {
+		display: none;
+	}
+
+	.show-on__motab {
+		display: block;
+	}
+}
+
+
+	/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+	.hidden-on__tab {
+		display: none;
+	}
+
+	.show-on__tab {
+		display: block;
+	}
+
+	.mySlides1__content {
+		top: 22%;
+		right: -196px;
+	}
+
+	.mySlides1__content2 {
+		left: 200px;
+	}
+
+	.mySlides1__content--heading {
+		font-size: 3.6rem;
+	}
+
+	.section1__box-img {
+		margin-left: 0;
+	}
+
+	.horizontal__item {
+		top: 20px;
+	}
+
+	.horizontal__item::before {
+		top: -37%;
+	}
+
+	.horizontal__item::after {
+		top: -39%;
+	}
+
+	.experient__item--img {
+		margin-top: 8%;
+	}
+
+	.entertaiment {
+		height: 128vh;
+	}
+
+	.entertaiment__item {
+		padding: 12px 0;
+	}
+
+	.carousel {
+		height: 320px;
+		overflow: hidden;
+	}
+
+	.section__about {
+		height: 52vh;
+	}
+
+	.section1 {
+		padding: 12px;
+	}
+
+	.section__about-text2 {
+		font-size: 4rem;
+		margin-bottom: 24px;
+		/* width: 0; */
+	}
+
+	.quanlity__item--right-img {
+		margin-top: 25%;
+	}
+
+	.products .col {
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+
+	.products .row {
+		margin-left: -2px;
+		margin-right: -2px;
+	}
+
+	.testimonial {
+		padding: 0;
+		height: 150vh;
+	}
+
+	.carousel2s {
+		height: 180vh;
+	}
+
+	.carousel2 {
+		left: 180px;
+	    width: 60%;
+	    bottom: -180px;
+	}
+
+	.carousel2__right {
+		padding: 0;
+	}
+
+	.help__list {
+		margin-top: 40px;
+	}
+
+	.apps-help__des {
+		margin: 0;
+	}
+
+}
+
+/* MObile */
+@media (max-width: 739px) {
+	.header {
+		padding: 0 12px;
+	}
+	.hidden-on__mobile {
+		display: none;
+	}
+
+	.show-on__mobile {
+		display: block;
+	}
+
+	.body {
+		padding: 0;
+	}
+
+	.header__logo--img {
+		width: 80px;
+	}
+
+	.section__about {
+		height: 48vh;
+	}
+
+	.section1-wrap {
+		margin: 12px 0;
+	}
+
+	.section1__footer--heading {
+		line-height: 3.2rem;
+	}
+
+	.section1__box-img {
+	    margin-left: 16px;
+	}
+
+	.horizontal__item::before {
+		display: none;
+	}
+
+	.horizontal__item::after {
+		display: none;
+	}
+
+	.horizontal__heading {
+		line-height: 2.8rem;
+	}
+
+
+	.section__about-text2 {
+	    font-size: 3.2rem;
+	    margin-bottom: 40px;
+	    line-height: 4rem;
+	    width: 100%;
+	}
+
+	.experient {
+		padding: 40px 8px;
+	}
+
+	.experient__item {
+		text-align: center;
+	}
+
+	.experient__heading {
+		line-height: 2.8rem;
+	}
+
+	.entertaiment {
+		height: 200vh;
+	}
+
+	.quanlity {
+		padding: 0 12px;
+	}
+
+	.quanlity__item--heading-right {
+		text-align: right;
+	}
+
+	.testimonial  {
+		height: 192vh;
+	}
+
+	.carousel2__card {
+	    width: 100%;
+	    height: 122%;
+	}
+	.carousel2__img {
+	    width: 141%;
+	    height: 56%;
+	}
+
+	.help__list {
+		margin-top: 40px;
+	}
+
+	.footer {
+		height: 56vh;
+	}
+
+	.footer__details {
+	    margin-top: 16px;
+	}
+
+	.form {
+		margin-top: -320px;
+	}
+}
+
+@media (min-width: 440px) and (max-width: 739px) {
+	.entertaiment {
+		height: 240vh;
+	}
+
+}
+
+/* Small Mobole */
+@media (max-width: 320px) {
+	.entertaiment {
+		height: 240vh;
+	}
+}
